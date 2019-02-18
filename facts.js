@@ -12,15 +12,18 @@ $(document).ready(function() {
 		document.getElementById("fact").textContent = "The longest astrological drought – at 206 years and counting – is currently being endured by Aries. Thomas Jefferson (April 13) is the last and only elected president born under the sign of The Ram, when he was reelected in 1804.";
 		document.getElementById("fact-source").href = "http://editions.lib.umn.edu/smartpolitics/2010/02/15/presidents-day-special-the-ast/";
 		document.getElementById("new1").textContent = "It's President's Day. Hi Nora";
-	} else if (d == 19 && m == 1 && y == 2019)
+	}
+	if (d == 19 && m == 1 && y == 2019)
 		document.getElementById("fact").textContent = "Verifiable Fact: Pisces hate when they get a text saying \"Wussup stranger\"... Like for real!!! phones work both ways";
 		document.getElementById("fact-source").href = "https://21facts.net/interesting-facts-about-pisces/";
 		document.getElementById("new1").textContent = "Happy Birthday Michelle!";
-	} else if (d == 2 && m == 6 && y == 2019) {
+	}
+	if (d == 2 && m == 6 && y == 2019) {
 		document.getElementById("fact").textContent = "Verifiable Fact: An analysis of data from the FBI found that Cancers are the most frequently arrested of all the zodiac signs, and their crimes are often more serious too.";
 		document.getElementById("fact-source").href = "https://bestlifeonline.com/crazy-horoscope-facts/";
 		document.getElementById("new1").textContent = "Happy Birthday Ryan!";
-	} else if (d == 11 && m == 5 && y == 2019) {
+	}
+	if (d == 11 && m == 5 && y == 2019) {
 		document.getElementById("fact").textContent = "Verifiable Fact: \"Alice\" is an Aquarius";
 		document.getElementById("fact-source").href = "https://www.instagram.com/noraabravos/";
 		document.getElementById("new1").textContent = "Happy Birthday Alice!";
