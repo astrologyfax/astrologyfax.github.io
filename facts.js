@@ -9,7 +9,7 @@ $(document).ready(function() {
 	var m = new Date().getMonth();
 	var d = new Date().getDate();
 	if (d == 18 && m == 1 && y == 2019) {
-		document.getElementById("fact").textContent = "The longest astrological drought – at 206 years and counting – is currently being endured by Aries. Thomas Jefferson (April 13) is the last and only elected president born under the sign of The Ram, when he was reelected in 1804.";
+		document.getElementById("fact").textContent = "The longest astrological drought at 206 years and counting is currently being endured by Aries. Thomas Jefferson (April 13) is the last and only elected president born under the sign of The Ram, when he was reelected in 1804.";
 		document.getElementById("fact-source").href = "http://editions.lib.umn.edu/smartpolitics/2010/02/15/presidents-day-special-the-ast/";
 		document.getElementById("new1").textContent = "It's President's Day. Hi Nora";
 	}
