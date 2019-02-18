@@ -17,7 +17,7 @@ body {
 	color:  #DCD0C0;
 }
 #fact-body {
-	width: calc(80% - 10px);
+	width: calc(80% - 30px);
 	font-family: 'Indie Flower', cursive;
 	font-size: 30px;
 	display: inline-block;
@@ -30,7 +30,6 @@ body {
 	display: inline-block;
 	width: 20%;
 	float: right;
-
 	padding: 0 20px 0 0;
 }
 #news-header {
