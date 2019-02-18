@@ -30,6 +30,8 @@ body {
 	display: inline-block;
 	width: 20%;
 	float: right;
+
+	padding: 0 20px 0 0;
 }
 #news-header {
 	font-family: 'Coiny', cursive;
