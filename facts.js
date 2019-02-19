@@ -18,6 +18,11 @@ $(document).ready(function() {
 		document.getElementById("fact-source").href = "https://21facts.net/interesting-facts-about-pisces/";
 		document.getElementById("new1").textContent = "Happy Birthday Michelle!";
 	}
+	if (d == 20 && m == 1 && y == 2019) {
+		document.getElementById("fact").textContent = "Verifiable Fact: Although astrology was never embraced by Christianity, that didn’t stop Pope Sixtus IV from becoming the first pope to draw and interpret a horoscope for himself in the 15th century.";
+		document.getElementById("fact-source").href = "https://bestlifeonline.com/crazy-horoscope-facts/";
+		document.getElementById("new1").textContent = "Nothing for today. How are you?";
+	}
 	if (d == 11 && m == 5 && y == 2019) {
 		document.getElementById("fact").textContent = "Verifiable Fact: \"Alice\" is an Aquarius";
 		document.getElementById("fact-source").href = "https://www.instagram.com/noraabravos/";
