@@ -23,6 +23,11 @@ $(document).ready(function() {
 		document.getElementById("fact-source").href = "https://bestlifeonline.com/crazy-horoscope-facts/";
 		document.getElementById("new1").textContent = "Nothing for today. How are you?";
 	}
+	if (d == 21 && m == 1 && y == 2019) {
+		document.getElementById("fact").textContent = "Verifiable Fact: You are probably used to the Western zodiac, and maybe know your year in the Chinese zodiac, but horoscopes are huge in India, where vedic astrology has been practiced for over 2,000 years.";
+		document.getElementById("fact-source").href = "https://bestlifeonline.com/crazy-horoscope-facts/";
+		document.getElementById("new1").textContent = "New Day, new fact.";
+	}
 	if (d == 11 && m == 5 && y == 2019) {
 		document.getElementById("fact").textContent = "Verifiable Fact: \"Alice\" is an Aquarius";
 		document.getElementById("fact-source").href = "https://www.instagram.com/noraabravos/";
