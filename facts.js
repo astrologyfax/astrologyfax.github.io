@@ -28,6 +28,11 @@ $(document).ready(function() {
 		document.getElementById("fact-source").href = "https://bestlifeonline.com/crazy-horoscope-facts/";
 		document.getElementById("new1").textContent = "New Day, new fact.";
 	}
+	if (d == 22 && m == 1 && y == 2019) {
+		document.getElementById("fact").textContent = "Verifiable Fact: There are 6,000 – 8,000 professional astrologers in the USA.";
+		document.getElementById("fact-source").href = "https://www.wishingmoon.com/interesting-facts-about-astrology/";
+		document.getElementById("new1").textContent = "That's too many astrologers.";
+	}
 	if (d == 11 && m == 5 && y == 2019) {
 		document.getElementById("fact").textContent = "Verifiable Fact: \"Alice\" is an Aquarius";
 		document.getElementById("fact-source").href = "https://www.instagram.com/noraabravos/";
