@@ -44,8 +44,7 @@ $(document).ready(function() {
 		document.getElementById("new1").textContent = "it's a day";
 	}
 	if (d == 25 && m == 1 && y == 2019) {
-		document.getElementById("fact").textContent = "Verifiable Fact: Former White House Chief of Staff Donald Regan said: \"It's common knowledge that a large percentage of Wall Street brokers use astrology.\""
-";
+		document.getElementById("fact").textContent = "Verifiable Fact: Former White House Chief of Staff Donald Regan said: \"It's common knowledge that a large percentage of Wall Street brokers use astrology.\"";
 		document.getElementById("fact-source").href = "https://www.telegraph.co.uk/culture/3573123/Twenty-facts-about-astrology.html";
 		document.getElementById("new1").textContent = "hi";
 	}
