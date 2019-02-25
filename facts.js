@@ -33,6 +33,22 @@ $(document).ready(function() {
 		document.getElementById("fact-source").href = "https://www.wishingmoon.com/interesting-facts-about-astrology/";
 		document.getElementById("new1").textContent = "That's too many astrologers.";
 	}
+	if (d == 23 && m == 1 && y == 2019) {
+		document.getElementById("fact").textContent = "Verifiable Fact: What you probably assume is your only sign, based only on your date of birth, is actually your sun sign. But there are several others, including ones for each planet and 12 different “house cusps,” all of which you will discover once a chart has been made for you.";
+		document.getElementById("fact-source").href = "https://www.littlethings.com/astrology-facts/1";
+		document.getElementById("new1").textContent = "oof?";
+	}
+	if (d == 24 && m == 1 && y == 2019) {
+		document.getElementById("fact").textContent = "Verifiable Fact: Astrology dates back to around 3000 BC Mesopotamia.";
+		document.getElementById("fact-source").href = "https://consciousreminder.com/2017/07/10/9-fascinating-facts-astrology-thatll-make-think-twice/";
+		document.getElementById("new1").textContent = "it's a day";
+	}
+	if (d == 25 && m == 1 && y == 2019) {
+		document.getElementById("fact").textContent = "Verifiable Fact: Former White House Chief of Staff Donald Regan said: \"It's common knowledge that a large percentage of Wall Street brokers use astrology.\""
+";
+		document.getElementById("fact-source").href = "https://www.telegraph.co.uk/culture/3573123/Twenty-facts-about-astrology.html";
+		document.getElementById("new1").textContent = "hi";
+	}
 	if (d == 11 && m == 5 && y == 2019) {
 		document.getElementById("fact").textContent = "Verifiable Fact: \"Alice\" is an Aquarius";
 		document.getElementById("fact-source").href = "https://www.instagram.com/noraabravos/";
