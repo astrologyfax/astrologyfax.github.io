@@ -8,6 +8,8 @@ $(document).ready(function() {
 	var y = new Date().getFullYear();
 	var m = new Date().getMonth();
 	var d = new Date().getDate();
+	var h = new Date().getHours();
+        var m = new Date().getMinutes();
 	if (d == 18 && m == 1 && y == 2019) {
 		document.getElementById("fact").textContent = "Verifiable Fact: The longest astrological drought at 206 years and counting is currently being endured by Aries. Thomas Jefferson (April 13) is the last and only elected president born under the sign of The Ram, when he was reelected in 1804.";
 		document.getElementById("fact-source").href = "http://editions.lib.umn.edu/smartpolitics/2010/02/15/presidents-day-special-the-ast/";
@@ -47,6 +49,11 @@ $(document).ready(function() {
 		document.getElementById("fact").textContent = "Verifiable Fact: Former White House Chief of Staff Donald Regan said: \"It's common knowledge that a large percentage of Wall Street brokers use astrology.\"";
 		document.getElementById("fact-source").href = "https://www.telegraph.co.uk/culture/3573123/Twenty-facts-about-astrology.html";
 		document.getElementById("new1").textContent = "hi";
+	}
+	if (d == 26 && m == 1 && y == 2019 && h == 9 && m == 13) {
+		document.getElementById("fact").textContent = "Verifiable Fact: Astrologers predicted Obama's victory. I mean, they had a 50/50 chance of being right, but it's still pretty neat. The prediction was made at the United Astrology Conference, which is the largest gathering of astrologers and meets every four years. They also predict natural disasters, explore the impact of lunar cycles on the stock market, and use planetary charts to find a job.";
+		document.getElementById("fact-source").href = "https://www.onlygood.tv/8-facts-about-astrology-you-want-to-know-2078279126.html";
+		document.getElementById("new1").textContent = "9:13";
 	}
 	if (d == 11 && m == 5 && y == 2019) {
 		document.getElementById("fact").textContent = "Verifiable Fact: \"Alice\" is an Aquarius";
