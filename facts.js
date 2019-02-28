@@ -55,6 +55,11 @@ $(document).ready(function() {
 		document.getElementById("fact-source").href = "https://www.onlygood.tv/8-facts-about-astrology-you-want-to-know-2078279126.html";
 		document.getElementById("new1").textContent = "9:13";
 	}
+	if (d == 27 && m == 1 && y == 2019 && h == 9 && m == 13) {
+		document.getElementById("fact").textContent = "Verifiable Fact: The first areas of the world that astrology spread to were China, India and Greece. Each culture infused the basic Babylonian astrological belief structure with its own myths, legends and interpretations. In Greece, many of the characters from ancient Greek mythology were combined with the stars to give their astrology its own local style. The same was true for India and China where local religion and superstition was combined with astrology to give it more meaning to the local population.";
+		document.getElementById("fact-source").href = "https://www.mydailymoment.com/horoscope/astrology/7_interesting_facts_about_the_history_of_astrology.php";
+		document.getElementById("new1").textContent = "Wow, you made it this time?";
+	}
 	if (d == 11 && m == 5 && y == 2019) {
 		document.getElementById("fact").textContent = "Verifiable Fact: \"Alice\" is an Aquarius";
 		document.getElementById("fact-source").href = "https://www.instagram.com/noraabravos/";
