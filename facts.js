@@ -60,6 +60,21 @@ $(document).ready(function() {
 		document.getElementById("fact-source").href = "https://www.mydailymoment.com/horoscope/astrology/7_interesting_facts_about_the_history_of_astrology.php";
 		document.getElementById("new1").textContent = "Wow, you made it this time?";
 	}
+	if (d == 2 && m == 2 && y == 2019) {
+		document.getElementById("fact").textContent = "Verifiable Fact: In ancient Greek mythology, Zeus transformed himself into a bull in order to secretly seduce the mortal Europa. Once he got her attention, he carried her on his back to Crete, where he revealed himself as Zeus. Out of their affair, three sons were born, one of which became the most famous king of Crete. Zeus later paid his respect to the bull by placing it forever in the night sky. The bull seen in the constellation was later called Taurus because that is the Latin word for bull.";
+		document.getElementById("fact-source").href = "https://www.theodysseyonline.com/random-fun-facts-about-zodiac-signs";
+		document.getElementById("new1").textContent = "What a guy";
+	}
+	if (d == 3 && m == 2 && y == 2019) {
+		document.getElementById("fact").textContent = "Verifiable Fact: You must have heard about the four elements – Earth, Air, Water, and Fire. But besides these, there are other star signs having qualities, like Mutable, Fixed, and Cardinal. The Cardinal signs are Libra, Capricorn, Aries, and Cancer, which are linked to the four seasons during the year. There are other fixed signs, such as Scorpio, Leo, Taurus, and Aquarius that are considered to be steady, stubborn, and strong. The other mutable signs are Virgo, Pisces, Gemini, and Sagittarius that are linked to communication and high flexibility. Astrology follows the zodiac based on these signs";
+		document.getElementById("fact-source").href = "https://www.akashvaani.com/blog/myths-and-facts-about-astrology";
+		document.getElementById("new1").textContent = "Pretty kool, right?";
+	}
+	if (d == 4 && m == 2 && y == 2019) {
+		document.getElementById("fact").textContent = "Verifiable Fact: A lot of people also think that an astrologer can change their life or destiny. This is not possible. Think about it this way: An astrologer has not created your destiny, so he cannot change it. It’s actually you—your subconscious and accumulated karma—who has created your destiny. In life, you get the chance to edit it just a little bit through choices and decisions. You have created it, so you have some power to control it, but you cannot change the whole thing.";
+		document.getElementById("fact-source").href = "https://www.sonima.com/meditation/mindful-living/astrology-myths/";
+		document.getElementById("new1").textContent = "Wow, that sucks.";
+	}
 	if (d == 11 && m == 5 && y == 2019) {
 		document.getElementById("fact").textContent = "Verifiable Fact: \"Alice\" is an Aquarius";
 		document.getElementById("fact-source").href = "https://www.instagram.com/noraabravos/";
